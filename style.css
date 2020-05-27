@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: font;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+     src: url("font/FiraSans-Regular.ttf");
+    font-family: 'font';
+}
+
+
+.navbar{
+    background-color: rgb(210, 204, 174) !important;
+}
+
+.dropdown-menu{
+    background-color: rgb(210, 204, 174) !important;
+
+
+}
+
+.icons {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.icons a {
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 15px;
+}
+
+.icons a img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-copyright{
+    background-color:rgb(210, 204, 174) !important;
+    color: black !important;
+}
+
+.text-main{
+    margin: auto 0;
+}
+
+#subscribe {
+    text-align: center;
+}
+
+#subscribe h3 {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#subscribe input {
+    max-width: 350px;
+    max-height: 30px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#subscribe a button {
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+#order-now {
+    text-align: center;
+}
+
+input[type] {
+    border-radius: 5px;
+    width: 300px;
+    height: 34px;
+}
+
+textarea {
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#order-now a button {
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#order-now a button:hover {
+    background-color: black;
+    color: white;
+}
+
+#ourstory {
+    margin: 40px 35%;
+}
+
+#story {
+    font-size: 1.3rem;
+    margin: 20px 7%;
+    text-justify: auto;
+}
+
+#gallery {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#gallery img {
+    margin: 10px;
+    width: 400px;
+}
